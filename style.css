@@ -48,6 +48,35 @@ text-decoration: none;
 
 .fixed-main-content{width: 100%; height: auto; position: relative; margin-bottom: 200px;}
 
-.header-right{float: right;}
+.header-right{float: right; width: 60%;}
 
 .header-link{text-decoration: none; padding: 0px 20px; margin-right: 40px;}
+
+.dropdown {
+    position: relative;
+    float: right;
+    margin-right: 70px;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9ad;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
+    padding: 12px 16px;
+    z-index: 2;
+    border-radius: 2px;
+    left:-100px;
+    top: -50px;
+  
+
+    
+
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown-anchor{  text-decoration: none;}
