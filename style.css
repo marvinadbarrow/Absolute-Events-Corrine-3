@@ -7,7 +7,7 @@ nav{position: fixed; padding: 2%; display: flex; flex-direction: row; justify-co
 
 .mission-statement{margin-top: 0px; font-size: 50px;}
 
-.card-body{overflow: hidden; box-shadow: 0px 2px 10px rgba(128, 128, 128, 0); width: 84%; margin: auto; border-radius: 10px; position: relative; padding: 16px 16px; margin-top: 100px;}
+.card-body{overflow: hidden; box-shadow: 0px 2px 10px rgba(128, 128, 128, 0); width: 84%; margin: auto; border-radius: 10px; position: relative; padding: 16px 16px; margin-top: 00px;}
 
 .card-background-large{width: 98%; height: 98%; position: absolute; z-index: -1;  opacity: 0.3; margin-left:-1%; margin-top: -1%; border-radius: 10px;}
 
@@ -41,7 +41,7 @@ display: inline;
     position: relative;
 }
 
-.business-type{margin-top: 200px; color: white; text-transform: uppercase;}
+.business-type{margin-top: 20px; color: white; text-transform: uppercase;}
 .cta-button-large{background-color: rgba(240, 56, 56, 0.575); padding: 10px 50px; border-style: none; color: white; font-size: 22px;}
 
 .main-container{width: 100%; height: auto; position: relative; margin: auto;}
@@ -82,3 +82,17 @@ display: inline;
   }
 
   .dropdown-anchor{  text-decoration: none;}
+
+  .socials-middle{
+    width: fit-content;
+    height: auto;
+    margin-top: 200px;
+    margin-bottom: 10px;
+    color: white;
+    z-index: 1;
+    background-color: rgba(180, 95, 95, 0.486);
+ 
+   
+  }
+
+  .fa{padding: 30px;}
