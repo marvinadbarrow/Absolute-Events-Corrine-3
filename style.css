@@ -17,14 +17,16 @@ body{background-image: url('/images/conference\ b.jpg');}
 footer{display: flex;  width: 100%;}
 .footer-bottom{ padding: 3%; }
 
-.nav-logo{width: 100px; margin-left: 10%;}
+.nav-logo{width: 200px; margin-left: 15%;}
 .logo-anchor{
     float: left;
 position: relative;
 text-decoration: none;
+width: 300px;
+display: inline;
 }
 
-.contact-elements{width: 60%; height: fit-content;}
+.contact-elements{width: 70%; height: fit-content;}
 
 .testimonials-container{display: flex; flex-direction: row; justify-content: space-between;}
 .t-cards{width: 25%; padding: 1%; border-radius: 15px; position: relative; background-color: rgb(36, 36, 36);  box-shadow: 2px 2px 20px rgb(7, 7, 7); }
