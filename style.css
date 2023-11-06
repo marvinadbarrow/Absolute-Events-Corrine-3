@@ -1,6 +1,8 @@
 *{
   font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
 }
+a{text-decoration: none;}
 body{
   background-image: url('/images/after_meeting.png');
 background-size: cover;
@@ -25,15 +27,6 @@ nav{position: fixed; padding: 2%; display: flex; flex-direction: row; justify-co
 footer{display: flex;  width: 100%;}
 .footer-bottom{ padding: 3%; }
 
-.nav-logo{width: 200px; margin-left: 15%;}
-.logo-anchor{
-    float: left;
-position: relative;
-text-decoration: none;
-width: 300px;
-display: inline;
-}
-
 .contact-elements{width: 70%; height: fit-content;}
 
 .testimonials-container{display: flex; flex-direction: row; justify-content: space-between;}
@@ -48,12 +41,83 @@ display: inline;
   width: 100%;
   height: fit-content;
   background-color: rgba(212, 200, 194, 0.756);
-  padding:15px 0px;
-
+  padding:10px 0px;
+  position: fixed;
+  top: 0; left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 1000;
+  box-shadow: 0px 3px 4px rgba(10, 10, 10, 0.774);
 }
+
+.logo-anchor{
+  float: left;
+position: relative;
+text-decoration: none;
+width: 400px;
+display: inline;
+padding: 0px 0px;
+}
+
 .main-nav{
     position: relative;
+    padding: 5px;
 }
+
+.nav-ul{
+  text-decoration: none; 
+  padding: 0px 20px;
+   margin-right: 40px;}
+
+.nav-ul li{
+  position: relative;
+  float: left;
+}
+
+.nav-link{
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 5px;
+}
+.nav-link:hover{background-color: rgb(240, 234, 229);}
+
+
+.services-list{
+  position: absolute;
+  font-size: 20px;
+  width: 250px;
+  padding: 2px 2px;
+  left: 0;
+  background-color: rgba(240, 234, 229, 0);
+}
+
+.main-nav ul li ul{
+  display: none;
+}
+
+.main-nav ul li:hover > ul{
+  display: block;
+  
+}
+.services-list li{
+  width: 100%;
+  background-color: rgb(240, 234, 229);
+  box-shadow: 0px 2px 3px rgba(56, 56, 56, 0.774);
+  padding: 20px;
+}
+.services-list li:hover{
+  background-color: rgb(78, 75, 75);
+  color: white;
+
+ }
+
+
+/**
+
+.services-main{ position: relative; width: 150px; background-color: rgb(240, 234, 229);}
+/* right arrow for 'services' dropdown*/
+.fa-angles-right{margin-left: 5px;}
 
 .business-type{margin-top: 20px; color: white; text-transform: uppercase;}
 .cta-button-large{background-color: rgba(240, 56, 56, 0.575); padding: 10px 50px; border-style: none; color: white; font-size: 22px;}
@@ -64,9 +128,9 @@ display: inline;
 
 .fixed-main-content{width: 100%; height: auto; position: relative; margin-bottom: 200px;}
 
-.header-right{width: fit-content; margin-top: 10px;}
 
-.header-link{text-decoration: none; padding: 0px 20px; margin-right: 40px;}
+
+
 
 .dropdown {
     position: relative;
